@@ -1,45 +1,42 @@
-import React, { Component } from "react";
-import "../App.css";
-import { withStyles } from "@material-ui/core/styles";
-import Dialog from "@material-ui/core/Dialog";
-import MuiDialogContent from "@material-ui/core/DialogContent";
-import image1 from "../images/largerVersion/DSC04408.JPG";
-import image2 from "../images/largerVersion/DSC04441.jpg";
-import image3 from "../images/largerVersion/DSC04444.JPG";
-import image4 from "../images/largerVersion/DSC04445.jpg";
-import image5 from "../images/largerVersion/DSC04451.jpg";
-import image6 from "../images/largerVersion/DSC04455.JPG";
-import image7 from "../images/largerVersion/DSC04456.jpg";
-import image8 from "../images/largerVersion/DSC04457.jpg";
-import image9 from "../images/largerVersion/DSC04461.jpg";
-import image10 from "../images/largerVersion/DSC04464.jpg";
-import image11 from "../images/largerVersion/DSC04470.JPG";
-import image12 from "../images/largerVersion/DSC04471.JPG";
-// import image13 from "../images/largerVersion/all_saints_pre-school_hw_2016_17007013.jpg";
-// import image14 from "../images/largerVersion/all_saints_pre-school_hw_2016_17007014.jpg";
-// import image15 from "../images/largerVersion/all_saints_pre-school_hw_2016_17007015.jpg";
-// import image16 from "../images/largerVersion/all_saints_pre-school_hw_2016_17007028.jpg";
-const DialogContent = withStyles(theme => ({
+import React, { Component } from "react"
+import "../App.css"
+import { withStyles } from "@material-ui/core/styles"
+// import Dialog from "@material-ui/core/Dialog";
+import MuiDialogContent from "@material-ui/core/DialogContent"
+import {
+  image1,
+  image2,
+  image3,
+  image4,
+  image6,
+  image7,
+  image8,
+  image9,
+  image10,
+  image11,
+  image12
+} from "../images"
+withStyles(theme => ({
   root: {
     margin: 0,
     padding: theme.spacing.unit * 2
   }
-}))(MuiDialogContent);
+}))(MuiDialogContent)
 
 export default class Gallery extends Component {
   state = {
     open: false
-  };
+  }
   //   myModalRefs= {ele1:"ele1", }
   // myModal.ele1
-  handleClick = (ele) => {
+  handleClick = ele => {
     // var modal = document.getElementById('myModal');
     //  var modal = e.target.name;
     //  modal.style.display = "block";
     //  console.log(e.target);
     // console.log(this.myModal)
     const str = "myModal" + ele
-    this[str].style.display = "block";
+    this[str].style.display = "block"
     // if(ele==1){
     //    console.log(this.myModal1)
     //    name = 3
@@ -49,13 +46,13 @@ export default class Gallery extends Component {
     // }
 
     //modalImg.src = this.props.src;
-  };
+  }
 
-  handleClose = (ele) => {
+  handleClose = ele => {
     //var modal = document.getElementById('myModal');
     const str = "myModal" + ele
-    this[str].style.display = "none";
-  };
+    this[str].style.display = "none"
+  }
 
   render() {
     return (
@@ -67,7 +64,7 @@ export default class Gallery extends Component {
               src={image1}
               alt="Cinque Terre"
               className="thumpNail"
-              onClick={(e) => {
+              onClick={e => {
                 this.handleClick(1)
               }}
               name="myModal1"
@@ -83,10 +80,13 @@ export default class Gallery extends Component {
               }}
             >
               {/* The Close Button */}
-              <span className="close" onClick={(e) => {
-                console.log('uiii', e)
-                this.handleClose(1)
-              }}>
+              <span
+                className="close"
+                onClick={e => {
+                  console.log("uiii", e)
+                  this.handleClose(1)
+                }}
+              >
                 &times;
               </span>
               {/* Modal Content (The Image) */}
@@ -110,26 +110,28 @@ export default class Gallery extends Component {
               alt="Cinque Terre"
               width="600"
               height="400"
-              onClick={(e) => {
+              onClick={e => {
                 this.handleClick(2)
               }}
-
             />
             <div
               id="myModal2"
               className="modal"
               ref={modal => {
                 //  console.log("inner modal", modal);
-                this.myModal2 = modal;
+                this.myModal2 = modal
                 // console.log(modal.id)
                 // this.myModal[modal.id] = modal.id;
                 // console.log(this.myModal)
               }}
             >
               {/* The Close Button */}
-              <span className="close" onClick={(e) => {
-                this.handleClose(2)
-              }}>
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(2)
+                }}
+              >
                 &times;
               </span>
               {/* Modal Content (The Image) */}
@@ -153,7 +155,7 @@ export default class Gallery extends Component {
               alt="Cinque Terre"
               width="600"
               height="400"
-              onClick={(e) => {
+              onClick={e => {
                 this.handleClick(3)
               }}
             />
@@ -161,13 +163,16 @@ export default class Gallery extends Component {
               id="myModal3"
               className="modal"
               ref={modal => {
-                this.myModal3 = modal;
+                this.myModal3 = modal
               }}
             >
               {/* The Close Button */}
-              <span className="close" onClick={(e) => {
-                this.handleClose(3)
-              }}>
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(3)
+                }}
+              >
                 &times;
               </span>
               {/* Modal Content (The Image) */}
@@ -191,7 +196,7 @@ export default class Gallery extends Component {
               alt="Cinque Terre"
               width="600"
               height="400"
-              onClick={(e) => {
+              onClick={e => {
                 this.handleClick(4)
               }}
             />
@@ -205,9 +210,12 @@ export default class Gallery extends Component {
               }}
             >
               {/* The Close Button */}
-              <span className="close" onClick={(e) => {
-                this.handleClose(4)
-              }}>
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(4)
+                }}
+              >
                 &times;
               </span>
               {/* Modal Content (The Image) */}
@@ -231,7 +239,7 @@ export default class Gallery extends Component {
               alt="Cinque Terre"
               width="600"
               height="400"
-              onClick={(e) => {
+              onClick={e => {
                 this.handleClick(6)
               }}
             />
@@ -245,9 +253,12 @@ export default class Gallery extends Component {
               }}
             >
               {/* The Close Button */}
-              <span className="close" onClick={(e) => {
-                this.handleClose(6)
-              }}>
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(6)
+                }}
+              >
                 &times;
               </span>
               {/* Modal Content (The Image) */}
@@ -271,7 +282,7 @@ export default class Gallery extends Component {
               alt="Cinque Terre"
               width="600"
               height="400"
-              onClick={(e) => {
+              onClick={e => {
                 this.handleClick(7)
               }}
             />
@@ -285,9 +296,12 @@ export default class Gallery extends Component {
               }}
             >
               {/* The Close Button */}
-              <span className="close" onClick={(e) => {
-                this.handleClose(7)
-              }}>
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(7)
+                }}
+              >
                 &times;
               </span>
               {/* Modal Content (The Image) */}
@@ -311,7 +325,7 @@ export default class Gallery extends Component {
               alt="Cinque Terre"
               width="600"
               height="400"
-              onClick={(e) => {
+              onClick={e => {
                 this.handleClick(8)
               }}
             />
@@ -325,9 +339,12 @@ export default class Gallery extends Component {
               }}
             >
               {/* The Close Button */}
-              <span className="close" onClick={(e) => {
-                this.handleClose(8)
-              }}>
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(8)
+                }}
+              >
                 &times;
               </span>
               {/* Modal Content (The Image) */}
@@ -351,7 +368,7 @@ export default class Gallery extends Component {
               alt="Cinque Terre"
               width="600"
               height="400"
-              onClick={(e) => {
+              onClick={e => {
                 this.handleClick(9)
               }}
             />
@@ -365,9 +382,12 @@ export default class Gallery extends Component {
               }}
             >
               {/* The Close Button */}
-              <span className="close" onClick={(e) => {
-                this.handleClose(9)
-              }}>
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(9)
+                }}
+              >
                 &times;
               </span>
               {/* Modal Content (The Image) */}
@@ -391,7 +411,7 @@ export default class Gallery extends Component {
               alt="Cinque Terre"
               width="600"
               height="400"
-              onClick={(e) => {
+              onClick={e => {
                 this.handleClick(10)
               }}
             />
@@ -405,9 +425,12 @@ export default class Gallery extends Component {
               }}
             >
               {/* The Close Button */}
-              <span className="close" onClick={(e) => {
-                this.handleClose(10)
-              }}>
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(10)
+                }}
+              >
                 &times;
               </span>
               {/* Modal Content (The Image) */}
@@ -431,7 +454,7 @@ export default class Gallery extends Component {
               alt="Cinque Terre"
               width="600"
               height="400"
-              onClick={(e) => {
+              onClick={e => {
                 this.handleClick(11)
               }}
             />
@@ -445,9 +468,12 @@ export default class Gallery extends Component {
               }}
             >
               {/* The Close Button */}
-              <span className="close" onClick={(e) => {
-                this.handleClose(11)
-              }}>
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(11)
+                }}
+              >
                 &times;
               </span>
               {/* Modal Content (The Image) */}
@@ -471,7 +497,7 @@ export default class Gallery extends Component {
               alt="Cinque Terre"
               width="600"
               height="400"
-              onClick={(e) => {
+              onClick={e => {
                 this.handleClick(12)
               }}
             />
@@ -485,9 +511,12 @@ export default class Gallery extends Component {
               }}
             >
               {/* The Close Button */}
-              <span className="close" onClick={(e) => {
-                this.handleClose(12)
-              }}>
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(12)
+                }}
+              >
                 &times;
               </span>
               {/* Modal Content (The Image) */}
@@ -669,6 +698,6 @@ export default class Gallery extends Component {
 
         <div className="clearfix" />
       </div>
-    );
+    )
   }
 }

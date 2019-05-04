@@ -29,13 +29,14 @@ export default class Header extends Component {
   render() {
     return (
       <div className="col pink lighten-5 s12 m12 l12  head">
-        <Link to="home" />
-        <img
-          ref={this.navRef}
-          src={Logo}
-          className="brand-logo center"
-          alt="logo"
-        />
+        <Link to="/">
+          <img
+            ref={this.navRef}
+            src={Logo}
+            className="brand-logo center"
+            alt="logo"
+          />
+        </Link>
         {/* <div className="nav_top">
           <img ref={this.navRef} src={Logo} className="brand-logo center nav-img" alt="logo" />
           <h6 className="top_message">We are accepting vacancies for September 2019 Intake.</h6>

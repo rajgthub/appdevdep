@@ -14,7 +14,11 @@ import {
   image9,
   image10,
   image11,
-  image12
+  image12,
+  image13
+  // image14,
+  // image15,
+  // image16
 } from "../images"
 withStyles(theme => ({
   root: {
@@ -531,16 +535,16 @@ export default class Gallery extends Component {
           </div>
         </div>
 
-        {/* <div className="responsive">
+        <div className="responsive">
           <div className="gallery">
             <img
               src={image13}
               id="myImg"
               alt="Cinque Terre"
-              width="600"
-              height="400"
-              onClick={(e) =>  {
-                console.log('uiii',e)
+              width="90%"
+              height="80%"
+              onClick={e => {
+                console.log("uiii", e)
                 this.handleClick(13)
               }}
             />
@@ -548,31 +552,32 @@ export default class Gallery extends Component {
               id="myModal13"
               className="modal"
               ref={modal => {
-               //   [modal.id]=e.target
-               this.myModal13=modal
-               //  this.myModal[modal.id] = modal.id;
+                //   [modal.id]=e.target
+                this.myModal13 = modal
+                //  this.myModal[modal.id] = modal.id;
               }}
             >
-              
-              <span className="close" onClick={(e) =>  {
-                console.log('uiii',e)
-                this.handleClose(13)
-              }}>
+              <span
+                className="close"
+                onClick={e => {
+                  console.log("uiii", e)
+                  this.handleClose(13)
+                }}
+              >
                 &times;
               </span>
-            
+
               <img
                 src={image13}
                 className="modal-content"
                 id="img01"
                 alt="children"
               />
-             
             </div>
           </div>
         </div>
 
-        <div className="responsive">
+        {/*<div className="responsive">
           <div className="gallery">
             <img
               src={image14}

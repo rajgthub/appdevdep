@@ -1,23 +1,23 @@
-import React, { Component } from "react";
-import "./App.css";
-import "./App.scss";
-import { HashRouter, Route, Switch } from "react-router-dom";
-import Header from "./components/Header/Header";
-import Footer from "./components/footer/Footer";
-import Home from "./components/Home";
-import Earlyyears from "./components/Earlyyears";
-import Ofested from "./components/Ofested";
-import Funding from "./components/Funding";
-import Testimonials from "./components/Testimonials";
-import Fundraising from "./components/Fundraising";
-import Gallery from "./components/Gallery";
-import Termdates from "./components/Termdates";
-import Contactus from "./components/Contactus";
-import DisableFriendly from "./images/all_saints_pre-school_hw_2016_17001010.jpg";
+import React, { Component } from "react"
+import "./App.css"
+import "./App.scss"
+import { BrowserRouter, Route, Switch } from "react-router-dom"
+import Header from "./components/Header/Header"
+import Footer from "./components/footer/Footer"
+import Home from "./components/Home"
+import Earlyyears from "./components/Earlyyears"
+import Ofested from "./components/Ofested"
+import Funding from "./components/Funding"
+import Testimonials from "./components/Testimonials"
+import Fundraising from "./components/Fundraising"
+import Gallery from "./components/Gallery"
+import Termdates from "./components/Termdates"
+import Contactus from "./components/Contactus"
+import DisableFriendly from "./images/all_saints_pre-school_hw_2016_17001010.jpg"
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
         <div className="blue lighten-5 sm-col-bg">
           <div className="sm-col-bg">
             <Header />
@@ -34,7 +34,6 @@ class App extends Component {
                 <Route path="/Contactus" component={Contactus} />
               </Switch>
               <div className="center">
-
                 <img
                   src={DisableFriendly}
                   alt="Deasable Friendly"
@@ -46,9 +45,9 @@ class App extends Component {
             <Footer />
           </div>
         </div>
-      </HashRouter>
-    );
+      </BrowserRouter>
+    )
   }
 }
 
-export default App;
+export default App

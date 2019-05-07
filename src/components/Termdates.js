@@ -81,9 +81,8 @@ const Termdates = () => {
       <br />
       <p className="grey-text text-darken-2">
         <span className="termDates-header">*</span>
-        All children and parents are all invited to the Friday mornings Party
-        Days. All younger siblings and parents only. Sorry no other relations
-        invited.
+        All children and parents are invited to the Friday mornings Party Days.
+        All younger siblings and parents only. Sorry no other relations invited.
       </p>
       <br />
       <ul className=" list grey-text text-darken-2">

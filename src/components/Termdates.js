@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import TermDates2020 from "./TermDates2020"
 const Termdates = () => {
   return (
     <div className="col s12 homeWrapper">
@@ -12,7 +13,7 @@ const Termdates = () => {
       <h5 className="blue-text text-lighten-2">Term Dates</h5>
       <p className="grey-text text-darken-2">
         {" "}
-        Term Dates for next Year Sept 2018 - July 2019
+        Term Dates for this Year Sept 2018 - July 2019
       </p>
       <br />
       <span className="termDates-header">Autumn Term</span>
@@ -103,6 +104,8 @@ const Termdates = () => {
           <span> </span>Friday 19 July
         </li>
       </ul>
+      {/* new bits for next year */}
+      <TermDates2020 />
     </div>
   )
 }

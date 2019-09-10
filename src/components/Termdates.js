@@ -10,7 +10,7 @@ const Termdates = () => {
           <Link to="Contactus"> Contact us </Link>today to secure your place!
         </h6>
       </div>
-      <h5 className="blue-text text-lighten-2">Term Dates</h5>
+      {/* <h5 className="blue-text text-lighten-2">Term Dates</h5>
       <p className="grey-text text-darken-2">
         {" "}
         Term Dates for this Year Sept 2018 - July 2019
@@ -103,7 +103,7 @@ const Termdates = () => {
           <i className=" tiny material-icons">child_care</i>Leavers Party
           <span> </span>Friday 19 July
         </li>
-      </ul>
+      </ul> */}
       {/* new bits for next year */}
       <TermDates2020 />
     </div>

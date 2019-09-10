@@ -91,7 +91,7 @@ const Main = () => {
             <br />
             Kind regards,
             <br />
-            Deepa Sharma - Preschool Manager
+            Kaleasha Stroud - Preschool Manager
             <br />
           </p>
         </div>

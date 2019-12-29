@@ -1,12 +1,16 @@
- .foot{
-    padding-top:10px;
-    margin:0
+.foot {
+  padding-top: 10px;
+  margin: 0;
 }
-.footer-copyright{
+.footer-copyright {
+  text-align: center;
+}
+.learnigalliance {
+  width: 100%;
+  margin: 1rem 0;
+}
+@media only screen and (max-width: 700px) {
+  .foot {
     text-align: center;
-}
-@media only screen and (max-width: 700px){
-    .foot{
-      text-align: center;
-    }
+  }
 }

@@ -60,7 +60,7 @@ const TermDates2020 = () => (
       </li>
       <li>
         <i className=" tiny material-icons">child_care</i>Monday 1st June – Fri
-        17 Jul
+        24th July
       </li>
       {/* <li>
         <i className=" tiny material-icons">child_care</i>Tues 4 Jun – Fri 19
@@ -89,7 +89,7 @@ const TermDates2020 = () => (
       </li>
       <li>
         <i className=" tiny material-icons">child_care</i>Leavers Party
-        <span> </span>Friday 17 July
+        <span> </span>Friday 24th July
       </li>
     </ul>
   </>

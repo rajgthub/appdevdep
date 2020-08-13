@@ -90,11 +90,6 @@ const TermDates2020 = () => (
         <span> </span>23rd July
       </li>
     </ul>
-    <p className="grey-text text-darken-2">
-      <span className="termDates-header">**</span>
-      Only parents, grandparents and siblings are welcome to attend preschool parties
-      <span className="termDates-header">**</span>
-    </p>
   </>
 )
 export { TermDates2020 as default }

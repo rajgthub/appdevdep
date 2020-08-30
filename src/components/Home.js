@@ -1,8 +1,8 @@
 import React, { Fragment } from "react"
 import { Link } from "react-router-dom"
-import Child1 from "../images/frontcircle/DSC03792.JPG"
-import Child2 from "../images/frontcircle/DSC04247.jpg"
-import Child3 from "../images/frontcircle/DSC04377.JPG"
+import Child1 from "../images/frontcircle/walking_1.jpg"
+import Child2 from "../images/frontcircle/magnify.jpg"
+import Child3 from "../images/frontcircle/graduation.jpeg"
 import "../App.css"
 const Main = () => {
   return (

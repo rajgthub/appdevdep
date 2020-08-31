@@ -9,7 +9,7 @@ const Navigation = ({ fixedNav }) => {
         className={fixedNav ? classes + " fixed-nav-top" : classes}
         style={{ textAlign: "center" }}
       >
-        <a href="#" data-target="mobile-demo" className="sidenav-trigger">
+        <a href="/#" data-target="mobile-demo" className="sidenav-trigger">
           <i className="material-icons">menu</i>
         </a>
         <ul className="flex-nav blue-text text-lighten-4 s12 m12 l12">

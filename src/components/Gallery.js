@@ -4,14 +4,29 @@ import { withStyles } from "@material-ui/core/styles"
 // import Dialog from "@material-ui/core/Dialog";
 import MuiDialogContent from "@material-ui/core/DialogContent"
 import {
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4,
+  gallery5,
+  gallery6,
+  gallery7,
+  gallery8,
   image1,
   image2,
   image3,
   image4,
-  image5,
   image6,
   image7,
-  image8
+  image8,
+  image9,
+  image10,
+  image11,
+  image12,
+  image13,
+  image14,
+  image15,
+  image16
 } from "../images"
 withStyles(theme => ({
   root: {
@@ -54,6 +69,352 @@ export default class Gallery extends Component {
   render() {
     return (
       <div className="row" style={{ padding: "20px" }}>
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              id="myImg"
+              src={gallery1}
+              alt="Cinque Terre"
+              className="thumpNail"
+              onClick={e => {
+                this.handleClick(1)
+              }}
+              name="myModal1"
+            />
+            {/* The Modal */}
+            <div
+              id="myModal1"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal1 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              {/* The Close Button */}
+              <span
+                className="close"
+                onClick={e => {
+                  console.log("uiii", e)
+                  this.handleClose(1)
+                }}
+              >
+                &times;
+              </span>
+              {/* Modal Content (The Image) */}
+              <img
+                src={gallery1}
+                className="modal-content"
+                id="img01"
+                alt="children"
+              />
+              {/* Modal Caption (Image Text) */}
+            </div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={gallery2}
+              id="myImg"
+              className="thumpNail"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                this.handleClick(2)
+              }}
+            />
+            <div
+              id="myModal2"
+              className="modal"
+              ref={modal => {
+                //  console.log("inner modal", modal);
+                this.myModal2 = modal
+                // console.log(modal.id)
+                // this.myModal[modal.id] = modal.id;
+                // console.log(this.myModal)
+              }}
+            >
+              {/* The Close Button */}
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(2)
+                }}
+              >
+                &times;
+              </span>
+              {/* Modal Content (The Image) */}
+              <img
+                src={gallery2}
+                className="modal-content"
+                id="img02"
+                alt="children"
+              />
+              {/* Modal Caption (Image Text) */}
+            </div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={gallery3}
+              id="myImg"
+              className="thumpNail"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                this.handleClick(3)
+              }}
+            />
+            <div
+              id="myModal3"
+              className="modal"
+              ref={modal => {
+                this.myModal3 = modal
+              }}
+            >
+              {/* The Close Button */}
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(3)
+                }}
+              >
+                &times;
+              </span>
+              {/* Modal Content (The Image) */}
+              <img
+                src={gallery3}
+                className="modal-content"
+                id="img0"
+                alt="children"
+              />
+              {/* Modal Caption (Image Text) */}
+            </div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={gallery4}
+              className="thumpNail"
+              id="myImg"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                this.handleClick(4)
+              }}
+            />
+            <div
+              id="myModal4"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal4 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              {/* The Close Button */}
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(4)
+                }}
+              >
+                &times;
+              </span>
+              {/* Modal Content (The Image) */}
+              <img
+                src={gallery4}
+                className="modal-content"
+                id="img01"
+                alt="children"
+              />
+              {/* Modal Caption (Image Text) */}
+            </div>
+          </div>
+        </div>
+        
+        
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={gallery5}
+              className="thumpNail"
+              id="myImg"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                this.handleClick(5)
+              }}
+            />
+            <div
+              id="myModal5"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal5 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              {/* The Close Button */}
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(5)
+                }}
+              >
+                &times;
+              </span>
+              {/* Modal Content (The Image) */}
+              <img
+                src={gallery5}
+                className="modal-content"
+                id="img01"
+                alt="children"
+              />
+              {/* Modal Caption (Image Text) */}
+            </div>
+          </div>
+        </div>        
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={gallery6}
+              className="thumpNail"
+              id="myImg"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                this.handleClick(6)
+              }}
+            />
+            <div
+              id="myModal6"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal6 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              {/* The Close Button */}
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(6)
+                }}
+              >
+                &times;
+              </span>
+              {/* Modal Content (The Image) */}
+              <img
+                src={gallery6}
+                className="modal-content"
+                id="img06"
+                alt="children"
+              />
+              {/* Modal Caption (Image Text) */}
+            </div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={gallery7}
+              className="thumpNail"
+              id="myImg"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                this.handleClick(7)
+              }}
+            />
+            <div
+              id="myModal7"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal7 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              {/* The Close Button */}
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(7)
+                }}
+              >
+                &times;
+              </span>
+              {/* Modal Content (The Image) */}
+              <img
+                src={gallery7}
+                className="modal-content"
+                id="img01"
+                alt="children"
+              />
+              {/* Modal Caption (Image Text) */}
+            </div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={gallery8}
+              className="thumpNail"
+              id="myImg"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                this.handleClick(8)
+              }}
+            />
+            <div
+              id="myModal8"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal8 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              {/* The Close Button */}
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(8)
+                }}
+              >
+                &times;
+              </span>
+              {/* Modal Content (The Image) */}
+              <img
+                src={gallery8}
+                className="modal-content"
+                id="img01"
+                alt="children"
+              />
+              {/* Modal Caption (Image Text) */}
+            </div>
+          </div>
+        </div>
+        {/* old pictures */}
         <div className="responsive">
           <div className="gallery">
             <img
@@ -226,50 +587,6 @@ export default class Gallery extends Component {
             </div>
           </div>
         </div>
-        
-        
-        <div className="responsive">
-          <div className="gallery">
-            <img
-              src={image5}
-              className="thumpNail"
-              id="myImg"
-              alt="Cinque Terre"
-              width="600"
-              height="400"
-              onClick={e => {
-                this.handleClick(5)
-              }}
-            />
-            <div
-              id="myModal5"
-              className="modal"
-              ref={modal => {
-                //   [modal.id]=e.target
-                this.myModal5 = modal
-                //  this.myModal[modal.id] = modal.id;
-              }}
-            >
-              {/* The Close Button */}
-              <span
-                className="close"
-                onClick={e => {
-                  this.handleClose(5)
-                }}
-              >
-                &times;
-              </span>
-              {/* Modal Content (The Image) */}
-              <img
-                src={image5}
-                className="modal-content"
-                id="img01"
-                alt="children"
-              />
-              {/* Modal Caption (Image Text) */}
-            </div>
-          </div>
-        </div>        
 
         <div className="responsive">
           <div className="gallery">
@@ -306,7 +623,7 @@ export default class Gallery extends Component {
               <img
                 src={image6}
                 className="modal-content"
-                id="img06"
+                id="img01"
                 alt="children"
               />
               {/* Modal Caption (Image Text) */}
@@ -399,6 +716,352 @@ export default class Gallery extends Component {
             </div>
           </div>
         </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={image9}
+              className="thumpNail"
+              id="myImg"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                this.handleClick(9)
+              }}
+            />
+            <div
+              id="myModal9"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal9 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              {/* The Close Button */}
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(9)
+                }}
+              >
+                &times;
+              </span>
+              {/* Modal Content (The Image) */}
+              <img
+                src={image9}
+                className="modal-content"
+                id="img01"
+                alt="children"
+              />
+              {/* Modal Caption (Image Text) */}
+            </div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={image10}
+              className="thumpNail"
+              id="myImg"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                this.handleClick(10)
+              }}
+            />
+            <div
+              id="myModal10"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal10 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              {/* The Close Button */}
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(10)
+                }}
+              >
+                &times;
+              </span>
+              {/* Modal Content (The Image) */}
+              <img
+                src={image10}
+                className="modal-content"
+                id="img01"
+                alt="children"
+              />
+              {/* Modal Caption (Image Text) */}
+            </div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={image11}
+              className="thumpNail"
+              id="myImg"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                this.handleClick(11)
+              }}
+            />
+            <div
+              id="myModal11"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal11 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              {/* The Close Button */}
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(11)
+                }}
+              >
+                &times;
+              </span>
+              {/* Modal Content (The Image) */}
+              <img
+                src={image11}
+                className="modal-content"
+                id="img01"
+                alt="children"
+              />
+              {/* Modal Caption (Image Text) */}
+            </div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={image12}
+              className="thumpNail"
+              id="myImg"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                this.handleClick(12)
+              }}
+            />
+            <div
+              id="myModal12"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal12 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              {/* The Close Button */}
+              <span
+                className="close"
+                onClick={e => {
+                  this.handleClose(12)
+                }}
+              >
+                &times;
+              </span>
+              {/* Modal Content (The Image) */}
+              <img
+                src={image12}
+                className="modal-content"
+                id="img01"
+                alt="children"
+              />
+              {/* Modal Caption (Image Text) */}
+            </div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={image13}
+              id="myImg"
+              className="thumpNail"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                console.log("uiii", e)
+                this.handleClick(13)
+              }}
+            />
+            <div
+              id="myModal13"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal13 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              <span
+                className="close"
+                onClick={e => {
+                  console.log("uiii", e)
+                  this.handleClose(13)
+                }}
+              >
+                &times;
+              </span>
+
+              <img
+                src={image13}
+                className="modal-content"
+                id="img01"
+                alt="children"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={image14}
+              id="myImg"
+              className="thumpNail"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                console.log("uiii", e)
+                this.handleClick(13)
+              }}
+            />
+            <div
+              id="myModal13"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal14 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              <span
+                className="close"
+                onClick={e => {
+                  console.log("uiii", e)
+                  this.handleClose(14)
+                }}
+              >
+                &times;
+              </span>
+
+              <img
+                src={image14}
+                className="modal-content"
+                id="img01"
+                alt="children"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={image15}
+              id="myImg"
+              className="thumpNail"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                console.log("uiii", e)
+                this.handleClick(15)
+              }}
+            />
+            <div
+              id="myModal15"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal15 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              <span
+                className="close"
+                onClick={e => {
+                  console.log("uiii", e)
+                  this.handleClose(15)
+                }}
+              >
+                &times;
+              </span>
+
+              <img
+                src={image15}
+                className="modal-content"
+                id="img01"
+                alt="children"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
+            <img
+              src={image16}
+              id="myImg"
+              className="thumpNail"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+              onClick={e => {
+                console.log("uiii", e)
+                this.handleClick(16)
+              }}
+            />
+            <div
+              id="myModal16"
+              className="modal"
+              ref={modal => {
+                //   [modal.id]=e.target
+                this.myModal16 = modal
+                //  this.myModal[modal.id] = modal.id;
+              }}
+            >
+              <span
+                className="close"
+                onClick={e => {
+                  console.log("uiii", e)
+                  this.handleClose(16)
+                }}
+              >
+                &times;
+              </span>
+
+              <img
+                src={image16}
+                className="modal-content"
+                id="img01"
+                alt="children"
+              />
+            </div>
+          </div>
+        </div>
+
+
         <div className="clearfix" />
       </div>
     )

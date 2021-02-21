@@ -5,6 +5,13 @@ import Child2 from "../images/frontcircle/magnify.jpg"
 import Child3 from "../images/frontcircle/graduation.jpeg"
 import "../App.css"
 const Main = () => {
+  const downloadPolicy = () => {
+    const link = document.createElement('a');
+    link.href = `resource/policy.doc`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
   return (
     <Fragment>
       {/* <div className="container s12"> */}
@@ -56,6 +63,28 @@ const Main = () => {
             old funding. We take funded children from the term after their 2nd
             birthday and funded 3/4 year olds. We also take non-funded children.
           </p>
+          <h5 className='blue-text text-lighten-2'>Policies and procedures: </h5>
+          <p className='grey-text text-darken-2'>Safeguarding is paramount and it is our duty to keep our children safe. 
+          Safeguarding is the action that is taken to promote the welfare of children and protect them from harm.</p>
+          <p className='grey-text text-darken-2'>Safeguarding means:</p>
+          <ul className=' list grey-text text-darken-2'>
+        <li className='list'>
+          <i className=' tiny material-icons'>child_care</i>protecting children from abuse and maltreatment.
+        </li>
+        <li className='list'>
+          <i className=' tiny material-icons'>child_care</i>preventing harm to children’s health or development.
+        </li>
+        <li className='list'>
+          <i className=' tiny material-icons'>child_care</i>Pensuring children grow up with the provision of safe and effective care.
+        </li>
+        <li className='list'>
+          <i className=' tiny material-icons' >child_care</i> taking action to enable all children and young people to have the best outcomes.
+         .
+        </li>
+      </ul>
+      <br />    
+          <p className='grey-text text-darken-2'>Child protection is part of the safeguarding process. It focuses on protecting individual children identified as suffering or likely to suffer significant harm. This includes child protection procedures which detail how to respond to concerns about a child (NSPCC 2021)</p>
+          <a class="waves-effect waves-light btn-small" onClick={downloadPolicy} style={{backgroundColor:"#64B5F6"}}><i class="material-icons left" style={{color:"tiny", backgroundColor:"#64B5F6"}}>cloud</i>Download policy</a>
           <h5 className='blue-text text-lighten-2'>Opening hours: </h5>
           <p className='grey-text text-darken-2'>Monday 9.30-12.30.</p>
           <p className='grey-text text-darken-2'>Tuesday 9.30-12.30.</p>

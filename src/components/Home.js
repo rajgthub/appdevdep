@@ -62,6 +62,7 @@ const Main = () => {
             We are open for 38 weeks of the year and are in receipt of 2/3/4yr
             old funding. We take funded children from the term after their 2nd
             birthday and funded 3/4 year olds. We also take non-funded children.
+            We charge £20 per session. Parent will be billed monthly or termly. 
           </p>
           <h5 className='blue-text text-lighten-2'>Policies and procedures: </h5>
           <p className='grey-text text-darken-2'>Safeguarding is paramount and it is our duty to keep our children safe. 
@@ -84,7 +85,9 @@ const Main = () => {
       </ul>
       <br />    
           <p className='grey-text text-darken-2'>Child protection is part of the safeguarding process. It focuses on protecting individual children identified as suffering or likely to suffer significant harm. This includes child protection procedures which detail how to respond to concerns about a child (NSPCC 2021)</p>
-          <a class="waves-effect waves-light btn-small" onClick={downloadPolicy} style={{backgroundColor:"#64B5F6"}}><i class="material-icons left" style={{color:"tiny", backgroundColor:"#64B5F6"}}>cloud</i>Download policy</a>
+          <a class="waves-effect waves-light btn-small" onClick={downloadPolicy} style={{backgroundColor:"#64B5F6", marginTop: "5px"}}><i class="material-icons left" style={{color:"tiny", backgroundColor:"#64B5F6"}}>cloud</i>Download policy</a>
+          <br/>
+          <span className="termDates-header" style={{fontSize: "15px"}}>*Other policies and procedures will be accessible on hard copies based on requests*</span>
           <h5 className='blue-text text-lighten-2'>Opening hours: </h5>
           <p className='grey-text text-darken-2'>Monday 9.30-12.30.</p>
           <p className='grey-text text-darken-2'>Tuesday 9.30-12.30.</p>

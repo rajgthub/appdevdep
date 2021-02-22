@@ -1,8 +1,8 @@
-import React, { Fragment } from "react"
-import { NavLink } from "react-router-dom"
+import React, { Fragment } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navigation = ({ fixedNav }) => {
-  let classes = "pink lighten-5 blue-text text-darken-4"
+  let classes = "pink lighten-5 blue-text text-darken-4";
   return (
     <Fragment>
       <nav
@@ -21,6 +21,15 @@ const Navigation = ({ fixedNav }) => {
               activeClassName="nav-active"
             >
               Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/Policy"
+              className="blue-text text-lighten-2"
+              activeClassName="nav-active"
+            >
+              Policy
             </NavLink>
           </li>
           <li>
@@ -88,15 +97,6 @@ const Navigation = ({ fixedNav }) => {
           </li>
           <li>
             <NavLink
-              to="/Policy"
-              className="blue-text text-lighten-2"
-              activeClassName="nav-active"
-            >
-              Policy
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
               to="/Contactus"
               className="blue-text text-lighten-2"
               activeClassName="nav-active"
@@ -117,6 +117,15 @@ const Navigation = ({ fixedNav }) => {
             activeClassName="nav-active"
           >
             Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/Policy"
+            className="blue-text text-lighten-2 sidenav-close"
+            activeClassName="nav-active"
+          >
+            Policy
           </NavLink>
         </li>
         <li>
@@ -192,7 +201,7 @@ const Navigation = ({ fixedNav }) => {
         </li>
       </ul>
     </Fragment>
-  )
-}
+  );
+};
 
-export default Navigation
+export default Navigation;

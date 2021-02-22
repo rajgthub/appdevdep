@@ -52,10 +52,6 @@ const Main = () => {
             We charge £20 per session. Parent will be billed monthly or termly.
           </p>
           <br />
-          <span className="termDates-header" style={{ fontSize: "15px" }}>
-            *Other policies and procedures will be accessible on hard copies
-            based on requests*
-          </span>
           <h5 className="blue-text text-lighten-2">Opening hours: </h5>
           <p className="grey-text text-darken-2">Monday 9.30-12.30.</p>
           <p className="grey-text text-darken-2">Tuesday 9.30-12.30.</p>

@@ -23,9 +23,7 @@ const Policy = () => {
             Safeguarding is the action that is taken to promote the welfare of
             children and protect them from harm.
           </p>
-          <p className="dark-title-1">
-          Safeguarding means:
-          </p>
+          <p className="dark-title-1">Safeguarding means:</p>
           <ul className=" list grey-text text-darken-2">
             <li className="list">
               <i className=" tiny material-icons">child_care</i>protecting
@@ -56,14 +54,17 @@ const Policy = () => {
             onClick={downloadPolicy}
             style={{ backgroundColor: "#64B5F6", marginTop: "5px" }}
           >
-            <i
-              class="material-icons left"
-              style={{ color: "tiny"}}
-            >
+            <i class="material-icons left" style={{ color: "tiny" }}>
               cloud
             </i>
             Download policy
           </button>
+          <div>
+            <span className="termDates-header" style={{ fontSize: "15px" }}>
+              *Other policies and procedures will be accessible on hard copies
+              based on requests*
+            </span>
+          </div>
         </div>
       </div>
     </Fragment>

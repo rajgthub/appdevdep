@@ -1,15 +1,10 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import VacancyAlert from './VacancyAlert'
 import TermDates2020 from "./TermDates2020"
 const Termdates = () => {
   return (
     <div className='col s12 homeWrapper'>
-      <div className='alert_message'>
-        <h6 className='top_message'>
-          We are accepting vacancies for January 2020 intake.{" "}
-          <Link to='Contactus'> Contact us </Link>today to secure your place!
-        </h6>
-      </div>
+     <VacancyAlert />
       {/* <h5 className="blue-text text-lighten-2">Term Dates</h5>
       <p className="grey-text text-darken-2">
         {" "}

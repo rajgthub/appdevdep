@@ -13,6 +13,7 @@ import Fundraising from "./components/Fundraising"
 import Gallery from "./components/Gallery"
 import Termdates from "./components/Termdates"
 import Contactus from "./components/Contactus"
+import Policy from "./components/Policy"
 import DisableFriendly from "./images/all_saints_pre-school_hw_2016_17001010.jpg"
 class App extends Component {
   render() {
@@ -31,6 +32,7 @@ class App extends Component {
                 <Route path="/Fundraising" component={Fundraising} />
                 <Route path="/Gallery" component={Gallery} />
                 <Route path="/Termdates" component={Termdates} />
+                <Route path="/Policy" component={Policy} />
                 <Route path="/Contactus" component={Contactus} />
               </Switch>
               <div className="center">

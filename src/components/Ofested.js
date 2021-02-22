@@ -1,15 +1,10 @@
 import React, { Component } from "react"
-import { Link } from "react-router-dom"
+import VacancyAlert from './VacancyAlert'
 export default class Ofested extends Component {
   render() {
     return (
       <div className='col s12 homeWrapper'>
-        <div className='alert_message'>
-          <h6 className='top_message'>
-            We are accepting vacancies for January 2020 intake.{" "}
-            <Link to='Contactus'> Contact us </Link>today to secure your place!
-          </h6>
-        </div>
+        <VacancyAlert />
         <h5 className='blue-text text-lighten-2'>Ofsted</h5>
         <p className='grey-text text-darken-2'>
           Ofsted is the Office for Standards in Education, Children’s Services

@@ -88,6 +88,15 @@ const Navigation = ({ fixedNav }) => {
           </li>
           <li>
             <NavLink
+              to="/Policy"
+              className="blue-text text-lighten-2"
+              activeClassName="nav-active"
+            >
+              Policy
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/Contactus"
               className="blue-text text-lighten-2"
               activeClassName="nav-active"

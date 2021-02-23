@@ -49,10 +49,11 @@ const Policy = () => {
             suffer significant harm. This includes child protection procedures
             which detail how to respond to concerns about a child (NSPCC 2021)
           </p>
+          <p className="dark-title-1" style={{marginBottom: "1px"}}>Safeguarding children, young people and vulnerable adults</p>
           <button
             class="waves-effect waves-light btn-small"
             onClick={downloadPolicy}
-            style={{ backgroundColor: "#64B5F6", marginTop: "5px" }}
+            style={{ backgroundColor: "#64B5F6", marginBottom: "15px" }}
           >
             <i class="material-icons left" style={{ color: "tiny" }}>
               cloud

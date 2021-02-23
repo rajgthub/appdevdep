@@ -4,7 +4,7 @@ import "../App.css";
 const Policy = () => {
   const downloadPolicy = () => {
     const link = document.createElement("a");
-    link.href = `resource/policy.doc`;
+    link.href = `resource/Safeguarding children young people and vulnerable adults.doc`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

@@ -34,7 +34,7 @@ const Policy = () => {
               to children’s health or development.
             </li>
             <li className="list">
-              <i className=" tiny material-icons">child_care</i>Pensuring
+              <i className=" tiny material-icons">child_care</i>ensuring
               children grow up with the provision of safe and effective care.
             </li>
             <li className="list">

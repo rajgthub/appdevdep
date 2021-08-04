@@ -39,11 +39,15 @@ text-justify: inter-word;
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    max-width: 60%;
+    max-width: 85%;
 }
-@media only screen and (min-width: 700px){
-  img.circle {
-    max-width: 25%;
+@media only screen and (max-width: 700px){
+  .flex-container{
+    flex-direction: column;
+   
+}
+img.circle {
+  max-width: 65%;
 }
 }
 

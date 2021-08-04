@@ -1,17 +1,30 @@
 import React, { Fragment } from "react";
 import VacancyAlert from "./VacancyAlert";
-import Child1 from "../images/frontcircle/walking_1.jpg";
-import Child2 from "../images/frontcircle/magnify.jpg";
-import Child3 from "../images/frontcircle/graduation.jpeg";
+import Child1 from "../images/frontcircle/forest_school.jpg";
+import Child2 from "../images/frontcircle/outdoor_access.jpg";
+import Child3 from "../images/frontcircle/pond_area.jpg";
 import "../App.css";
 const Main = () => {
   return (
     <Fragment>
       {/* <div className="container s12"> */}
-      <div id="imagesWrapper" className="s12 center">
-        <img src={Child1} alt="child image1" className="circle z-depth-5" />
-        <img src={Child2} alt="child image2" className="circle z-depth-5" />
-        <img src={Child3} alt="child image3" className="circle z-depth-5" />
+      <div id="imagesWrapper" className="s12 flex-container center">
+        <div className="content">
+         <img src={Child1} alt="child image1" className="circle image-text z-depth-5" />
+         <div className="text-title">Forest School</div>
+        </div>
+        <div className="content">
+         <img src={Child2} alt="child image1" className="circle image-text z-depth-5" />
+         <div className="text-title">Outdoor Access</div>
+        </div>
+
+        <div className="content">
+         <img src={Child3} alt="child image1" className="circle image-text z-depth-5" />
+         <div className="text-title">Pond Area</div>
+        </div>
+
+        {/* <img src={Child2} alt="child image2" className="circle z-depth-5" />
+        <img src={Child3} alt="child image3" className="circle z-depth-5" /> */}
       </div>
       {/* </div>/ */}
       <div className="row">

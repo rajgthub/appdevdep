@@ -3,6 +3,7 @@ import VacancyAlert from "./VacancyAlert";
 import Child1 from "../images/frontcircle/forest_school.jpg";
 import Child2 from "../images/frontcircle/outdoor_access.jpg";
 import Child3 from "../images/frontcircle/pond_area.jpg";
+import Child4 from "../images/frontcircle/woodland _nature_reserve.jpg";
 import "../App.css";
 const Main = () => {
   return (
@@ -22,7 +23,11 @@ const Main = () => {
          <img src={Child3} alt="child image1" className="circle image-text z-depth-5" />
          <div className="text-title">Pond Area</div>
         </div>
-
+        <div className="content">
+         <img src={Child4
+        } alt="child image1" className="circle image-text z-depth-5" />
+         <div className="text-title">Woodland Nature Reserve</div>
+        </div>
         {/* <img src={Child2} alt="child image2" className="circle z-depth-5" />
         <img src={Child3} alt="child image3" className="circle z-depth-5" /> */}
       </div>

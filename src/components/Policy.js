@@ -4,7 +4,14 @@ import "../App.css";
 const Policy = () => {
   const downloadPolicy = () => {
     const link = document.createElement("a");
-    link.href = `resource/Safeguarding children young people and vulnerable adults.doc`;
+    link.href = `resource/Safeguarding children young people and vulnerable adults.docx`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+  const downloadPolicyZip = () => {
+    const link = document.createElement("a");
+    link.href = `resource/Safegurding procedures.zip`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -49,17 +56,31 @@ const Policy = () => {
             suffer significant harm. This includes child protection procedures
             which detail how to respond to concerns about a child (NSPCC 2021)
           </p>
-          <p className="dark-title-1" style={{marginBottom: "1px"}}>Safeguarding children, young people and vulnerable adults</p>
-          <button
-            class="waves-effect waves-light btn-small"
-            onClick={downloadPolicy}
-            style={{ backgroundColor: "#64B5F6", marginBottom: "15px" }}
-          >
-            <i class="material-icons left" style={{ color: "tiny" }}>
-              cloud
-            </i>
-            Download policy
-          </button>
+          <p className="dark-title-1" style={{ marginBottom: "1px" }}>
+            Safeguarding children, young people and vulnerable adults
+          </p>
+          <div class="downloadablePolicyLinks">
+            <button
+              class="waves-effect waves-light btn-small"
+              onClick={downloadPolicy}
+              style={{ backgroundColor: "#64B5F6", marginBottom: "15px" }}
+            >
+              <i class="material-icons left" style={{ color: "tiny" }}>
+                cloud
+              </i>
+              Download Policy
+            </button>
+            <button
+              class="waves-effect waves-light btn-small"
+              onClick={downloadPolicyZip}
+              style={{ backgroundColor: "#64B5F6", marginBottom: "15px" }}
+            >
+              <i class="material-icons left" style={{ color: "tiny" }}>
+                cloud
+              </i>
+              Download Safeguarding Procedures
+            </button>
+          </div>
           <div>
             <span className="termDates-header" style={{ fontSize: "15px" }}>
               *Other policies and procedures will be accessible on hard copies

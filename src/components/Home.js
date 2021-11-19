@@ -11,22 +11,37 @@ const Main = () => {
       {/* <div className="container s12"> */}
       <div id="imagesWrapper" className="s12 flex-container center">
         <div className="content">
-         <img src={Child1} alt="child image1" className="circle image-text z-depth-5" />
-         <div className="text-title">Forest School</div>
+          <img
+            src={Child1}
+            alt="child image1"
+            className="circle image-text z-depth-5"
+          />
+          <div className="text-title">Forest School</div>
         </div>
         <div className="content">
-         <img src={Child2} alt="child image1" className="circle image-text z-depth-5" />
-         <div className="text-title">Outdoor Access</div>
+          <img
+            src={Child2}
+            alt="child image1"
+            className="circle image-text z-depth-5"
+          />
+          <div className="text-title">Outdoor Access</div>
         </div>
 
         <div className="content">
-         <img src={Child3} alt="child image1" className="circle image-text z-depth-5" />
-         <div className="text-title">Pond Area</div>
+          <img
+            src={Child3}
+            alt="child image1"
+            className="circle image-text z-depth-5"
+          />
+          <div className="text-title">Pond Area</div>
         </div>
         <div className="content">
-         <img src={Child4
-        } alt="child image1" className="circle image-text z-depth-5" />
-         <div className="text-title">Woodland Nature Reserve</div>
+          <img
+            src={Child4}
+            alt="child image1"
+            className="circle image-text z-depth-5"
+          />
+          <div className="text-title">Woodland Nature Reserve</div>
         </div>
         {/* <img src={Child2} alt="child image2" className="circle z-depth-5" />
         <img src={Child3} alt="child image3" className="circle z-depth-5" /> */}
@@ -35,6 +50,16 @@ const Main = () => {
       <div className="row">
         <div className="col s12 homeWrapper">
           <VacancyAlert />
+          <h5 className="bottom_message">
+            <p className="bottom_top_paragraph">
+              We are spreading our wings to open up 30 hours childcare from Jan
+              2022.
+            </p>
+            <p className="bottom_top_paragraph_margin">
+              Open day is on 3rd of December from 10 am for families and carers
+              to visit our exciting preschool to see us in action!!
+            </p>
+          </h5>
           <h5 className="blue-text text-lighten-2">
             Welcome to All Saints Pre-School Online
           </h5>

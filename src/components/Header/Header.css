@@ -16,7 +16,12 @@
   display: flex !important;
   justify-content: space-evenly;
 }
-
+.bottom_message{
+  font-size: 1.75rem;
+}
+.bottom_top_paragraph{
+  margin-bottom: 0.75rem;
+}
 @media only screen and (max-width: 993px) {
   .flex-nav {
     display: none !important;

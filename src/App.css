@@ -255,3 +255,8 @@ div.gallery {
       width: 70%;
   }
   }
+  @media all and (max-width: 405px){
+    .downloadablePolicyLinks > button{
+      font-size: 10px;
+     }
+  }

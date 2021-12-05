@@ -50,16 +50,6 @@ const Main = () => {
       <div className="row">
         <div className="col s12 homeWrapper">
           <VacancyAlert />
-          <h5 className="bottom_message">
-            <p className="bottom_top_paragraph">
-              We are spreading our wings to open up 30 hours childcare from Jan
-              2022.
-            </p>
-            <p className="bottom_top_paragraph_margin">
-              Open day is on 3rd of December from 10 am for families and carers
-              to visit our exciting preschool to see us in action!!
-            </p>
-          </h5>
           <h5 className="blue-text text-lighten-2">
             Welcome to All Saints Pre-School Online
           </h5>

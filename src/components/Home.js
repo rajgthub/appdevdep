@@ -101,6 +101,7 @@ const Main = () => {
           <br />
           <i className="grey-text grey-bold text-darken-2">
           we provide extended (lunch hour) and 30 hours childcare based on parents interests.
+          Currently 30 hours childcare on roll from 9:30 am to 4.00 pm except Wednesdays.
           </i>
           <br />
           <br />

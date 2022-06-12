@@ -82,9 +82,16 @@ const Main = () => {
             We are open for 38 weeks of the year and are in receipt of 2/3/4yr
             old funding. We take funded children from the term after their 2nd
             birthday and funded 3/4 year olds. We also take non-funded children.
-            We charge £20 per session. Parent will be billed monthly or termly.
           </p>
-          <br />
+          <h5 className="blue-text text-lighten-2">
+           Fees
+          </h5>
+          <p className="grey-text text-darken-2">
+          Under 3 years old £10 per hour, and over 3 years old £9.50 per hour.
+          </p>
+          <p className="grey-text text-darken-2">
+          Parents will be billed monthly or termly.
+          </p>
           <h5 className="blue-text text-lighten-2">Opening hours: </h5>
           <p className="grey-text text-darken-2">Monday 9.30-12.30.</p>
           <p className="grey-text text-darken-2">Tuesday 9.30-12.30.</p>
@@ -93,8 +100,10 @@ const Main = () => {
           <p className="grey-text text-darken-2">Friday 9.30-12.30.</p>
           <br />
           <i className="grey-text grey-bold text-darken-2">
-            Lunch hours would be provided based on parents interest
+          we provide extended (lunch hour) and 30 hours childcare based on parents interests.
           </i>
+          <br />
+          <br />
           <p className="grey-text text-darken-2">
             There are four staff with appropriate qualifications in childcare
             and education. Three staff present at all time to safeguard

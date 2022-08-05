@@ -60,8 +60,12 @@ const TermDates2022 = () => (
     <br />
     <p className="grey-text text-darken-2">
       <span className="termDates-header">*</span>
-      All children and parents are invited to the Friday mornings Party Days.
-      All younger siblings and parents only. Sorry no other relations invited.
+      Only Parents, siblings and grandparents are welcomed to all the parties.
+      <br />
+      During the term time, children are not authorised to take
+      holidays unless it is an emergency for up to 10 days. Local
+      authority will not provide funding and the child place will be
+      withdrawn.
     </p>
     <br />
     <ul className=" list grey-text text-darken-2">

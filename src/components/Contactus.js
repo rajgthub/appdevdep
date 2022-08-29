@@ -29,7 +29,7 @@ const Contactus = () => {
       </p>
       <br />
       <p className="grey-text text-darken-2">
-        Deepa Sharma - All Saints Pre-School Manager
+        Radhika Kovendrakumar - All Saints Pre-School Manager
       </p>
       <br />
       <p className="grey-text text-darken-2">

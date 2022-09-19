@@ -129,7 +129,7 @@ const Main = () => {
             <br />
             Kind regards,
             <br />
-            Deepa Sharma - Preschool Manager
+            Radhika Kovendrakumar - Preschool Manager
             <br />
           </p>
         </div>

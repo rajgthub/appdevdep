@@ -1,6 +1,7 @@
 import React from "react"
 import "../App.css"
 import VacancyAlert from './VacancyAlert'
+import earlyyears from "../images/earlyyears/1671490436652blob.png"
 const Earlyyears = () => {
   return (
     <div className='col s12 homeWrapper'>
@@ -70,19 +71,14 @@ const Earlyyears = () => {
         The principles which guide the work of all early years practioners are
         grouped into four themes:
       </p>
-      <ul className='list grey-text text-darken-2'>
-        <li className='list'>
-          <i className=' tiny material-icons'>child_care</i>A unique child.
-        </li>
-        <li className='list'>
-          <i className=' tiny material-icons'>child_care</i>Positive
-          relationships.
-        </li>
-        <li className='list'>
-          <i className=' tiny material-icons'>child_care</i>Learning and
-          development.
-        </li>
-      </ul>
+      <div>
+      <img
+        src={earlyyears}
+        className="modal-content"
+        id={"img_0_earlyyears"}
+        alt="children"
+      />
+      </div>
       <br />
       <h5 className='grey-text grey-bold-2 text-darken-2'>
         2yr old progress checks

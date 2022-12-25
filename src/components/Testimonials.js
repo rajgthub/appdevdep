@@ -1,10 +1,23 @@
 import React from "react";
 import VacancyAlert from "./VacancyAlert";
+import qrcode from "../images/qrcode/qrcode_1.jpg"
 const Testimonials = () => {
   return (
     <div className="col s12 homeWrapper">
       <VacancyAlert />
       <h5 className="blue-text text-lighten-2">Testimonials</h5>
+      <p className="grey-text text-darken-2">
+        We collect feedback from parents and carers in different ways for us to improve our service.
+        Here are some examples:
+      </p>
+      <div>
+      <img
+        src={qrcode}
+        className="modal-content"
+        id={"img_0_qrcode"}
+        alt="children"
+      />
+      </div>
       <h6 className="blue-text text-lighten-2">
         From the survey and quality of provision questionnaires:
       </h6>

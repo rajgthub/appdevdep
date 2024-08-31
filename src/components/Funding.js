@@ -13,8 +13,8 @@ const Funding = () => {
         children from the term after their 2nd birthday and funded 3/4 year
         olds.
       </p>
-      <p>Under 3 years £11.50 per hour</p>
-      <p>Over 3 years £10.50 per hour</p>
+      <p>Child under 3 is £11.50</p>
+      <p>Child over 3 is £10.50</p>
       <br />
       <p className="grey-text text-darken-2">
         Parents are billed at the beginning of each term usually 11 or 14 weeks.

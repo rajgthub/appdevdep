@@ -87,17 +87,20 @@ const Main = () => {
            Fees
           </h5>
           <p className="grey-text text-darken-2">
-          Under 3 years old £10 per hour, and over 3 years old £9.50 per hour.
+          The preschool offers 30 hours and 15 hours funded places under the universal and working families eligibility criteria. We also offer flexible childcare according to families needs.  
+          </p>
+          <p className="grey-text text-darken-2">
+          Under 3 years old £11.50 per hour, and over 3 years old £10.50 per hour.
           </p>
           <p className="grey-text text-darken-2">
           Parents will be billed monthly or termly.
           </p>
           <h5 className="blue-text text-lighten-2">Opening hours: </h5>
-          <p className="grey-text text-darken-2">Monday 9.30-12.30.</p>
-          <p className="grey-text text-darken-2">Tuesday 9.30-12.30.</p>
-          <p className="grey-text text-darken-2">Wednesday 9.30-12.30.</p>
-          <p className="grey-text text-darken-2">Thursday 9.30-12.30.</p>
-          <p className="grey-text text-darken-2">Friday 9.30-12.30.</p>
+          <p className="grey-text text-darken-2">Monday 9:30 am - 4:00 pm.</p>
+          <p className="grey-text text-darken-2">Tuesday 9:30 am - 4:00 pm.</p>
+          <p className="grey-text text-darken-2">Wednesday 9:30 am - 4:00 pm.</p>
+          <p className="grey-text text-darken-2">Thursday 9:30 am - 4:00 pm.</p>
+          <p className="grey-text text-darken-2">Friday 9:30 am - 4:00 pm.</p>
           <br />
           <i className="grey-text grey-bold text-darken-2">
           we provide extended (lunch hour) and 30 hours childcare based on parents interests.

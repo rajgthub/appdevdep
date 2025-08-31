@@ -1,11 +1,11 @@
 import React from "react"
 import VacancyAlert from './VacancyAlert'
-import TermDates2024 from "./TermDates2024"
+import TermDates2025 from "./TermDates2025"
 const Termdates = () => {
   return (
     <div className='col s12 homeWrapper'>
      <VacancyAlert />
-     <TermDates2024 />
+     <TermDates2025 />
     </div>
   )
 }
